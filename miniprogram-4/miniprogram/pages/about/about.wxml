@@ -1,0 +1,48 @@
+<view class='container'><image class='about-banner'src='/images/food/eat.jpg'></image></view>
+<view class="shadow">
+  <view class="side">
+    <text class='section1'>· 项目目标</text>
+    <view class='line'><span></span></view>
+    <view ><text class='section2'>  你是否还记得，那次你饥肠辘辘来到食堂，漫长的等待让你抓狂；
+
+    你是否还记得，那天你心怀期待来到食堂，想吃的窗口前人山人海。
+
+    想知道如何一到食堂就吃上美味可口的饭菜？
+
+    想体验去食堂比别人晚，拿到饭比别人早的“小幸运”？
+
+    “高校智能食堂”助你“白日梦”成真！
+
+    界面绚丽，让你充满食欲；商城丰富，琳琅满目让你应接不暇；
+
+    即饿即下单，在线支付方便快捷；随到随取餐，排队是神马。
+
+    （一句话总结：线上下单，选择取饭时间，随到随吃）
+
+    </text>
+    </view>
+  </view>
+  <view class='line2'><span></span></view>
+  <view class="side">
+    <text class='section1'>· 团队故事</text>
+    <view class='line'><span></span></view>
+    <text class='section2'>善是什么，善是“好”，善是“美”，凡是为人们生活带来便捷的都是善。
+
+    也许你上午12：15下课，下午13：00又有课，中午短短的45分钟又恰恰是用餐的高峰期，排队的时间比吃饭的时间还长，吃完饭连午休的时间都没有；
+
+    也许很多次你因为不想排队放弃了想吃的美食。
+    
+    排队时，你是否也曾想过让食堂提前做好饭，你去了直接取餐。
+
+    现在你的梦我们帮你实现！！！
+
+    利用微信小程序搭建食堂的点餐商城，在线即可选择菜品，预约就餐时间，并在线支付，到食堂，即刻享受大餐。
+
+    利用微信小程序搭建食堂的服务端，获取点餐人的姓名学号以及所点的菜和预约就餐的时间，适当提前一定时间做好饭，让学生一到食堂就可以吃上温热的饭菜，同时提前做好一定的饭菜，可以避免在学生就餐的高峰期过于繁忙。
+    </text>
+  </view>
+  <view class='line2'><span></span></view>
+
+  <text class='section3'>表白助教小分队倾情打造</text>
+
+ </view>

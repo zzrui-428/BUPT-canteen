@@ -1,0 +1,30 @@
+<view class="sectionTitle "> 北邮智能约饭系统 </view>
+
+<view id='banner'>
+<swiper indicator-dots="true" autoplay="true" interval="2000" duration="1500" style='height:410rpx'> <block wx:for="{{banner}}" wx:key="banner"> 
+<swiper-item> 
+<view class='container'> 
+<image src='{{item}}'mode="aspectFill" style="width:375rpx;height:375rpx;box-shadow: 0px 2px 5px #ccc; border-radius: 5%" />
+</view> 
+</swiper-item> 
+</block>
+</swiper> 
+</view> 
+
+<view class='shadow'>
+<form bindsubmit="formSubmit">
+
+<view class='form'>
+<view class='input'>
+<view class='section1'>请认真填写个人信息</view>
+<input name="input_content" value='{{input}}' class='input-box' placeholder=" 请输入姓名"/>
+<input name="input_number" value='{{inputnumber}}' class='input-box' placeholder=" 请输入学号"/>
+</view>
+<view class='button'>
+<button style="color: white" formType="submit" >{{text}}</button>
+</view>
+</view>
+</form>
+</view>
+<button class='button-next'bindtap='go'style="color: white" >--->去点餐</button>
+

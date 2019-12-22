@@ -1,0 +1,77 @@
+<view class='container'>
+<image class='about-banner'src='/images/emoji/pick.png'></image>
+</view>
+
+<view class='shadow'>
+<view class="sectionTitle "> /今日菜单/ </view>
+
+<view class='menu'>
+<image class='menu-image' src="/images/menu/niuliu.png" style='border-radius:5rpx;'>
+</image>
+<view class='container1'>
+<text style='font-size:40rpx'>黑椒牛柳</text>
+<text style='font-size：20rpx; color:tomato'>¥11.88</text>
+
+</view>
+</view>
+
+<view class='menu'>
+<image class='menu-image' src="/images/menu/Bibimbap.jpg" style='border-radius:5rpx;'>
+</image>
+<view class='container1'>
+<text style='font-size:40rpx'>韩国烤肉
+拌饭</text>
+<text style='font-size：20rpx; color:tomato'>¥10.88</text>
+
+</view>
+</view>
+
+<view class='menu'>
+<image class='menu-image' src="/images/menu/noodle.png" style='border-radius:5rpx;'>
+</image>
+<view class='container1'>
+<text style='font-size:40rpx'>重庆小面</text>
+<text style='font-size：20rpx; color:tomato'>¥9.88</text>
+
+</view>
+</view>
+
+<view class='menu'>
+<image class='menu-image' src="/images/menu/fish.png" style='border-radius:5rpx;'>
+</image>
+<view class='container1'>
+<text style='font-size:40rpx'>变态辣
+水煮鱼</text>
+<text style='font-size：20rpx; color:tomato'>¥13.88</text>
+
+</view>
+</view>
+
+<view class='container1'>
+<text style='color:tomato;margin: 20px;'>更多菜品陆续添加中......</text>
+</view>
+<view class='line'><span></span></view>
+
+<form bindsubmit="formSubmit">
+<view class='form'>
+<picker name="input_dish" value='{{inputdish}}'bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+<view class="button">
+选择菜品：{{array[inputdish]}}
+</view>
+</picker>
+<view class="menu"> 请输入取餐时间（5min内)</view>
+
+<view >
+<text style='color:tomato;'>参考格式：12：20-12：25</text>
+</view>
+<view class='input'>
+<input name="input_time" value='{{inputtime}}' class='input-box' placeholder="请输入"/>
+</view>
+<view class="button">
+<button style="color: white"formType="submit">{{text}}</button>
+</view>
+</view>
+</form>
+</view>
+
+<button class='button-next'bindtap='go' >--->去支付</button>

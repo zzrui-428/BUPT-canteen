@@ -1,0 +1,86 @@
+.form{
+
+width:650rpx; 
+
+height:510rpx; 
+
+display:flex; /*组件的子组件采用flex布局排列*/
+
+flex-direction:column; /*flex布局排列的主方向为纵向，子组件从上到下排列*/
+
+justify-content:space-around; /*子组件在主方向上采用space-around方式排列，每个子组件在主方向上的两侧有相等的间隔。*/
+
+align-items:center /*子组件在副方向（这里为横向）上居中排列*/
+
+}
+
+.shadow{
+  background-color: #ffffff;
+  display: inline-block;
+  margin-left:40rpx;
+  margin-right:40rpx;
+  margin-bottom:30rpx;
+  border-radius:20rpx;
+  
+  box-shadow: 0rpx 4rpx 15rpx  #ccc;
+}
+
+.input{
+
+width:85%; 
+}
+
+.input-box{
+
+height:60rpx;
+border: 1px solid rgba(0, 0, 0, 0.1) ; /*给class为input-box的组件加上边框，边框宽度为1px，边框样式为实线，边框颜色为黑色。*/
+border-radius: 40rpx;
+margin-top: 40rpx /*此组件上方增加80rpx的间隔*/
+
+}
+
+.checkbox{
+
+width:85%; /*class为checkbox的组件宽度为父组件的宽度的85%*/
+}
+
+.checkbox_hint{
+
+margin-bottom:80rpx /*此组件下方增加80rpx的间隔*/
+}
+
+.button{
+background-color: #FF8C69;
+color: white;
+border-radius: 40rpx;
+width:85%;
+box-shadow: 0px 2px 5px #ccc;
+}
+.section1{
+margin-bottom: 20rpx;
+
+font-size: 60rpx;
+text-align: center;
+}
+.sectionTitle{
+font-size: 80rpx;
+color:rgb(218, 90, 51);
+text-align: center;
+font-weight:bold;
+font-family:Impact, Haettenschweiler, ‘ArialNarrowBold’, sans-serif;
+margin-bottom:30rpx;
+margin-top:30rpx; 
+}
+.img{
+clear:both;
+display:block;
+margin:auto;
+margin-top:100rpx
+}
+.button-next{
+background-color: rgb(218, 90, 51);
+color: white;
+margin-right: 20rpx;
+font-size: 60rpx;
+width:100%
+}

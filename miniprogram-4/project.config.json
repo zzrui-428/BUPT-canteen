@@ -1,0 +1,44 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true
+	},
+	"appid": "wxe483ae00a6d916f0",
+	"projectname": "%E7%BA%AF%E5%B1%9E%E7%BB%83%E4%B9%A0%E7%9A%84%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide"
+				}
+			]
+		}
+	}
+}

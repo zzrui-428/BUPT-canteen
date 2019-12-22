@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/post/post",
+    "pages/about/about",
+    "pages/payment/payment"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "约饭",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icons/buy.png",
+        "selectedIconPath": "images/icons/buy-selected2.png"
+      },
+      {
+        "text": "关于",
+        "pagePath": "pages/about/about",
+        "iconPath": "images/icons/about.png",
+        "selectedIconPath": "images/icons/about-selected2.png"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#FF8C69"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#eeeeee",
+    "navigationBarBackgroundColor": "#FF8C69",
+    "navigationBarTitleText": "北邮智能约饭系统",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}
