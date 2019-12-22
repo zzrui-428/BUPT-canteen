@@ -1,0 +1,26 @@
+<view class="sectionTitle">
+  <text>北邮智能约饭系统后台</text>
+</view>
+<view>输入的姓名与学号是</view>
+<view class='userinfo  '>
+<text>{{record}}{{recordnumber}}</text>
+</view>
+<view>
+<button class='button'  bindtap='read_id'>读取学生信息</button>
+</view>
+
+<view>{{record}}想吃的菜品序号是:</view>
+<view class='userinfo  '>
+<text class='section' space="emsp">第    {{recorddish}}   号菜品</text>
+</view>
+
+
+<view class='tunnel-text '>用餐时间为：</view>
+<view class='userinfo'>
+<text>{{recordtime}}</text>
+</view>
+<view>
+<button class='button'  bindtap='read_time'>读取用餐信息</button>
+</view>
+
+
